@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visulaizer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <h1>Bubble Sort Algorithm Visualizer</h1>
+    <div class="container">
+      <p>
+        Bubble sort is a simple sorting algorithm that repeatedly steps through
+        the list to be sorted, compares each pair of adjacent items and swaps
+        them if they are in the wrong order. The pass through the list is
+        repeated until no swaps are needed, which indicates that the list is
+        sorted. The algorithm gets its name from the way smaller or larger
+        elements "bubble" to the top of the list as the sort progresses. It is a
+        very inefficient algorithm and it's generally not used in practice, but
+        it's useful for understanding the basics of sorting algorithms.
+      </p>
+    </div>
+    <div id="container" class="container"></div>
+    <hr />
+
+    <div class="btn-container">
+      <button class="btn" onclick="_reset()">Reset</button>
+      <button class="btn" onclick="_play()">Play</button>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
